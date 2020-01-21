@@ -13,15 +13,17 @@
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
-    <div class="status-bar"></div>
-    <div class="status-bar__column"></div>
-    <span class="status-bar__clock">13:54 </span>
-    <div class="status-bar__column">
-      <i class="fas fa-clock"></i>
-      <i class="fas fa-volume-mute"></i>
-      <i class="fas fa-wifi"></i>
-      <span class="status-bar__battery-level">100%</span>
-      <i class="fas fa-battery-full"></i>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54 </span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
     </div>
     <header class="header">
       <div class="header__header-column">
@@ -38,11 +40,11 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend__lg">
+        <div class="friends__friend friend friend">
           <div class="friend__column">
-            <img src="images/avatar.png" class="g-avatar friend__avater" />
+            <img src="images/avatar.png" class="g-avatar friend__avatar" />
             <div class="friend__content">
-              <span class="freined__name">
+              <span class="frined__name">
                 Nicolas Serrano
               </span>
               <span class="friend__status">
@@ -56,9 +58,9 @@
         <h5 class="friends__title">Plus friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.png" class="g-avatar friend__avater" />
+            <img src="images/avatar.png" class=" g-avatar friend__avatar" />
             <div class="friend__content">
-              <span class="freined__name">
+              <span class="friend__name">
                 Plus Friend
               </span>
             </div>
@@ -67,11 +69,11 @@
       </div>
       <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
-        <li class="friends__friend friend--lg">
+        <li class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.png" class="g-avatar friend__avater" />
+            <img src="images/avatar.png" class=" g-avatar friend__avatar" />
             <div class="friend__content">
-              <span class="freined__name">
+              <span class="friend__name">
                 Nicolas Serrano
               </span>
               <span class="friend__status">
@@ -115,5 +117,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
   </body>
 </html>

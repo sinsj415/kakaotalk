@@ -12,15 +12,17 @@
     <title>More | Kakao Clone</title>
   </head>
   <body>
-    <div class="status-bar"></div>
-    <div class="status-bar__column"></div>
-    <span class="status-bar__clock">13:54 </span>
-    <div class="status-bar__column">
-      <i class="fas fa-clock"></i>
-      <i class="fas fa-volume-mute"></i>
-      <i class="fas fa-wifi"></i>
-      <span class="status-bar__battery-level">100%</span>
-      <i class="fas fa-battery-full"></i>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54 </span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
     </div>
     <header class="header">
       <div class="header__header-column">
@@ -35,16 +37,16 @@
         </span>
         <span class="header__icon">
           <a href="settings.html">
-          <i class="fas fa-cog"></i>
+            <i class="fas fa-cog"></i>
           </a>
         </span>
       </div>
     </header>
     <main class="more">
       <header class="more__header">
-        <div class="friends__friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.png" class="g-avatar friend__avater" />
+            <img src="images/avatar.png" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="freined__name">
                 Nicolas Serrano
@@ -58,7 +60,7 @@
             <i class="far fa-comment-alt fa-2x"></i>
           </div>
         </div>
-        <ul class="more btn-list">
+        <ul class="more__btn-list">
           <li class="more__btn">
             <span class="more__btn-icon">
               <i class="far fa-smile fa-2x"></i></span
@@ -87,18 +89,18 @@
         <ul class="more__suggestions-list">
           <il class="more__suggestion suggestion">
             <span class="suggestion__icon">
-              <i class="fas fa-quote-right fa-2x"></i>
+              <i class="fas fa-quote-right "></i>
             </span>
             <span class="suggestion__title">Kakao Story</span>
           </il>
           <il class="more__suggestion suggestion">
-            <span class="suggestion__icon">
-            <i class="fas fa-beer fa-2x"></i>
+            <span class="suggestion__icon"> <i class="fas fa-beer "></i></span>
             <span class="suggestion__title">Kakao friend</span>
           </il>
-          <il class="more__suggestion suggestion">
+          <il class="msore__suggestion suggestion">
             <span class="suggestion__icon">
-              <i class="fas fa-gamepad fa-2x"></i>
+              <i class="fas fa-gamepad "></i
+            ></span>
 
             <span class="suggestion__title">Friends Gem</span>
           </il>
@@ -129,5 +131,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
   </body>
 </html>
